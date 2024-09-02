@@ -4,7 +4,9 @@ go 1.23.0
 
 require (
 	github.com/99designs/gqlgen v0.17.49
+	github.com/doug-martin/goqu/v9 v9.19.0
 	github.com/go-chi/chi/v5 v5.1.0
+	github.com/go-sql-driver/mysql v1.8.1
 	github.com/vektah/gqlparser/v2 v2.5.16
 	github.com/vikstrous/dataloadgen v0.0.6
 )
@@ -13,8 +15,6 @@ require (
 	filippo.io/edwards25519 v1.1.0 // indirect
 	github.com/agnivade/levenshtein v1.1.1 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.4 // indirect
-	github.com/doug-martin/goqu/v9 v9.19.0 // indirect
-	github.com/go-sql-driver/mysql v1.8.1 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/gorilla/websocket v1.5.0 // indirect
 	github.com/hashicorp/golang-lru/v2 v2.0.7 // indirect

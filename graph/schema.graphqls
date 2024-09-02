@@ -2,21 +2,17 @@
 #
 # https://gqlgen.com/getting-started/
 
-directive @goField(
-    forceResolver: Boolean
-) on INPUT_FIELD_DEFINITION | FIELD_DEFINITION
-
 type User {
     id: ID!
     name: String!
-    posts: [Post!]! @goField(forceResolver: true)
+    posts: [Post!]!
 }
 
 type Post {
     id: ID!
     title: String!
     text: String!
-    user: User! @goField(forceResolver: true)
+    user: User!
 }
 
 type Query {
